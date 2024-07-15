@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Hello {
     @RequestMapping
     public String hello(){
-        return "Hello World";
+        return "Is it working";
     }
 }
